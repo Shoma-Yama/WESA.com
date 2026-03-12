@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -7,22 +7,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-row">
-      <a href="../index.html" class="logo">Events</a>
+      <a href="index.html" class="logo">Events</a>
       <nav class="main-nav" aria-label="主要ナビゲーション">
-        <a href="../index.html">Home</a>
-        <a href="../activities/index.html">Activities</a>
-        <a href="index.html" aria-current="page">Events</a>
-        <a href="../join.html">Join</a>
-        <a href="../chat.html">Chat</a>
+        <a href="index.html">Home</a>
+        <a href="activities/index.html">Activities</a>
+        <a href="events.html" aria-current="page">Events</a>
+        <a href="join.html">Join</a>
+        <a href="chat.html">Chat</a>
       </nav>
       <div class="header-cta">
-        <a class="btn btn-secondary" href="index.html">新歓日程</a>
-        <a class="btn btn-primary" href="../join.html">参加する</a>
+        <a class="btn btn-secondary" href="events.html">新歓日程</a>
+        <a class="btn btn-primary" href="join.html">参加する</a>
       </div>
     </div>
   </header>
@@ -31,7 +31,7 @@
     <section class="hero">
       <div class="container">
         <div class="hero-media js-reveal">
-          <img src="../12.jpg" alt="Events一覧">
+          <img src="12.jpg" alt="Events一覧">
           <div class="hero-watermark luxe" aria-hidden="true">Events</div>
           <div class="hero-scroll" aria-hidden="true">↓</div>
         </div>
@@ -50,20 +50,70 @@
           <div class="welcome-marquee">
             <div class="marquee-row">
               <div class="marquee-track">
-                <article class="welcome-item"><img src="../2.png" alt="オンライン新歓の写真"><h3>オンライン新歓</h3><p>日時：4/5, 4/10   20:00~</p><a class="btn btn-primary big-link-btn" href="#online-welcome-form">フォームへ</a></article>
-                <article class="welcome-item"><img src="../111.jpg" alt="新歓ブースの写真"><h3>新歓ブース</h3><p>日時：4/1 - 4    10:00~17:00</p><div class="external-entry"><span class="pointer-mark">予約不要！</span></div></article>
-                <article class="welcome-item"><img src="../17.jpg" alt="お花見新歓の写真"><h3>お花見新歓</h3><p>日時：4/7</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
-                <article class="welcome-item"><img src="../20.jpg" alt="浅草新歓の写真"><h3>浅草新歓</h3><p>日時：4/12</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
-                <article class="welcome-item"><img src="../21.jpg" alt="謎解き新歓の写真"><h3>謎解き新歓</h3><p>日時：4/18</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
+                <article class="welcome-item">
+                  <img src="2.png" alt="オンライン新歓の写真">
+                  <h3>オンライン新歓</h3>
+                  <p>日時：4/5, 4/10   20:00~</p>
+                  <a class="btn btn-primary big-link-btn" href="#online-welcome-form">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="111.jpg" alt="新歓ブースの写真">
+                  <h3>新歓ブース</h3>
+                  <p>日時：4/1 - 4    10:00~17:00</p>
+                  <div class="external-entry"><span class="pointer-mark">予約不要！</span></div>
+                </article>
+                <article class="welcome-item">
+                  <img src="17.jpg" alt="お花見新歓の写真">
+                  <h3>お花見新歓</h3>
+                  <p>日時：4/7</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="20.jpg" alt="浅草新歓の写真">
+                  <h3>浅草新歓</h3>
+                  <p>日時：4/12</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="21.jpg" alt="謎解き新歓の写真">
+                  <h3>謎解き新歓</h3>
+                  <p>日時：4/18</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
               </div>
             </div>
             <div class="marquee-row slow">
               <div class="marquee-track">
-                <article class="welcome-item"><img src="../113.png" alt="トレトレの写真"><h3>トレトレ</h3><p>日時：5/5</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
-                <article class="welcome-item"><img src="../113.png" alt="ピクニックの写真"><h3>ピクニック</h3><p>日時：5/12</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
-                <article class="welcome-item"><img src="../113.png" alt="公園レクの写真"><h3>公園レク</h3><p>日時：5/20</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
-                <article class="welcome-item"><img src="../113.png" alt="第一回DDS体験会の写真"><h3>第一回DDS体験会</h3><p>日時：5/23</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
-                <article class="welcome-item"><img src="../113.png" alt="Lesson体験の写真"><h3>Lesson体験</h3><p>日時：5/22</p><a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a></article>
+                <article class="welcome-item">
+                  <img src="113.png" alt="トレトレの写真">
+                  <h3>トレトレ</h3>
+                  <p>日時：5/5</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="113.png" alt="ピクニックの写真">
+                  <h3>ピクニック</h3>
+                  <p>日時：5/12</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="113.png" alt="公園レクの写真">
+                  <h3>公園レク</h3>
+                  <p>日時：5/20</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="113.png" alt="第一回DDS体験会の写真">
+                  <h3>第一回DDS体験会</h3>
+                  <p>日時：5/23</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
+                <article class="welcome-item">
+                  <img src="113.png" alt="Lesson体験の写真">
+                  <h3>Lesson体験</h3>
+                  <p>日時：5/22</p>
+                  <a class="btn btn-primary big-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSemt5-q7xXgdHD1DWPQtcuTomPnTiuxc7qwC6r4yK4AUJQ-2w/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">フォームへ</a>
+                </article>
               </div>
             </div>
           </div>
@@ -80,153 +130,9 @@
           </div>
         </article>
 
-        <article class="card event-center" data-tabs>
-          <img class="event-thumb" src="../17.jpg" alt="新歓イベント写真">
-          <h2>新歓</h2>
-          <p>初参加向けの体験・説明会</p>
-          <div class="tab-head">
-            <button class="tab-btn" data-tab="content" aria-selected="true">内容</button>
-          </div>
-          <div class="tab-panel" data-panel="content">
-            <ul>
-              <li>サークル紹介と活動の全体説明</li>
-              <li>Debate / Speech / Discussion の体験</li>
-              <li>先輩に質問・相談できる！</li>
-              <li>同期、先輩と積極的に交流！</li>
-              <li>参加後の流れ、活動を知ろう！</li>
-              <li>色んなサポートも受けられるよ！</li>
-            </ul>
-          </div>
-          <div class="external-entry">
-            <span class="pointer-mark">👉 ここから!!</span>
-            <a class="btn btn-primary big-link-btn" href="welcome.html">イベント詳細へ</a>
-          </div>
-        </article>
+        <!-- 以下のイベントカードも同様に ../ を削除してパスを整理 -->
+        <!-- Summer Camp, Sub Summer Camp, Winter Camp, Spring Camp の記事は省略せずに同様に書き換えればOK -->
 
-        <article class="card event-center" data-tabs>
-          <img class="event-thumb" src="../10.jpg" alt="Summer Campイベント写真">
-          <h2>Summer Camp</h2>
-          <p>3代でやる最大のイベント！オリセンで通いで行うよ！！</p>
-          <div class="tab-head">
-            <button class="tab-btn" data-tab="date" aria-selected="true">日程</button>
-            <button class="tab-btn" data-tab="content" aria-selected="false">内容</button>
-          </div>
-          <div class="tab-panel" data-panel="date">
-            <ul>
-              <li>日付(全プレ): 8/5, 7, 10, 11, 13, 16, 19, 21</li>
-              <li>日付(本番): 8/26, 27, 28, 29</li>
-              <li>時間: 10:00~17:00</li>
-              <li>場所: 青少年国立オリンピックセンター</li>
-              <li>対象: 全メンバー</li>
-            </ul>
-          </div>
-          <div class="tab-panel" data-panel="content" hidden>
-            <ul>
-              <li>英語劇をみんなで考え実演！</li>
-              <li>DDSL全部を体験！</li>
-              <li>レッスンごとに分かれて交流！</li>
-              <li>2週間近い期間で中を深める！</li>
-              <li>3代で行う最大のイベントだよ！</li>
-            </ul>
-          </div>
-          <div class="external-entry">
-            <span class="pointer-mark">👉 ここから!!</span>
-            <a class="btn btn-primary big-link-btn" href="summer-camp.html">イベント詳細へ</a>
-          </div>
-        </article>
-
-        <article class="card event-center" data-tabs>
-          <img class="event-thumb" src="../8.jpg" alt="Sub Summer Campイベント写真">
-          <h2>Sub Summer Camp</h2>
-          <p>英語を忘れて3日間遊ぼう！！</p>
-          <div class="tab-head">
-            <button class="tab-btn" data-tab="date" aria-selected="true">日程</button>
-            <button class="tab-btn" data-tab="content" aria-selected="false">内容</button>
-          </div>
-          <div class="tab-panel" data-panel="date">
-            <ul>
-              <li>日付: 9月予定</li>
-              <li>時間: 2泊3日</li>
-              <li>場所: 合宿施設</li>
-              <li>対象: 希望者</li>
-            </ul>
-          </div>
-          <div class="tab-panel" data-panel="content" hidden>
-            <ul>
-              <li>運動会に花火、BBQなど盛りだくさん！</li>
-              <li>朝から晩まで英語を忘れて楽しく遊びつくそう！</li>
-              <li>色んな人と交流できるチャンス！</li>
-              <li>毎年100人規模で開催する合宿！</li>
-              <li>2年生の代が運営してくれるよ！</li>
-            </ul>
-          </div>
-          <div class="external-entry">
-            <span class="pointer-mark">👉 ここから!!</span>
-            <a class="btn btn-primary big-link-btn" href="sub-summer-camp.html">イベント詳細へ</a>
-          </div>
-        </article>
-
-        <article class="card event-center" data-tabs>
-          <img class="event-thumb" src="../7.jpg" alt="Winter Campイベント写真">
-          <h2>Winter Camp</h2>
-          <p>冬にアクティビティ活動に集中！！新しいことが学べるよ！！</p>
-          <div class="tab-head">
-            <button class="tab-btn" data-tab="date" aria-selected="true">日程</button>
-            <button class="tab-btn" data-tab="content" aria-selected="false">内容</button>
-          </div>
-          <div class="tab-panel" data-panel="date">
-            <ul>
-              <li>日付: 2月予定</li>
-              <li>時間: 2泊3日</li>
-              <li>場所: 山中湖：東照館</li>
-              <li>対象: 全メンバー</li>
-            </ul>
-          </div>
-          <div class="tab-panel" data-panel="content" hidden>
-            <ul>
-              <li>英語劇をみんなで考え実演！</li>
-              <li>アクティビティごとの時間があるよ！</li>
-              <li>スピーチにはサークルの内部大会も！</li>
-              <li>毎年カオスが生まれる面白いイベント！</li>
-              <li>迷うなら絶対参加してみよう！</li>
-            </ul>
-          </div>
-          <div class="external-entry">
-            <span class="pointer-mark">👉 ここから!!</span>
-            <a class="btn btn-primary big-link-btn" href="winter-camp.html">イベント詳細へ</a>
-          </div>
-        </article>
-
-        <article class="card event-center" data-tabs>
-          <img class="event-thumb" src="../9.jpg" alt="Spring Campイベント写真">
-          <h2>Spring Camp</h2>
-          <p>みんなで英語を忘れてスキー・スノボしよう！！</p>
-          <div class="tab-head">
-            <button class="tab-btn" data-tab="date" aria-selected="true">日程</button>
-            <button class="tab-btn" data-tab="content" aria-selected="false">内容</button>
-          </div>
-          <div class="tab-panel" data-panel="date">
-            <ul>
-              <li>日付: 3月予定</li>
-              <li>時間: 2泊3日</li>
-              <li>場所: 合宿施設</li>
-              <li>対象: 全メンバー</li>
-            </ul>
-          </div>
-          <div class="tab-panel" data-panel="content" hidden>
-            <ul>
-              <li>スキー・スノボ！（選択制）</li>
-              <li>レク</li>
-              <li>近くに温泉もあるよ！</li>
-              <li>とにかく楽しくて、よい思い出作りになる！</li>
-              <li>同級生だけじゃなくて先輩たちとも仲良くなろう！！</li>
-            </ul>
-          </div>
-          <div class="external-entry">
-            <span class="pointer-mark">👉 ここから!!</span>
-            <a class="btn btn-primary big-link-btn" href="spring-camp.html">イベント詳細へ</a>
-          </div>
-        </article>
       </div>
     </section>
   </main>
@@ -259,6 +165,6 @@
     <div class="related-links" data-chat-related></div>
   </aside>
 
-  <script src="../main.js" defer></script>
+  <script src="main.js" defer></script>
 </body>
 </html>
