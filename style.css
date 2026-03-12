@@ -119,11 +119,12 @@ img {
   font-weight: 800;
   letter-spacing: 0.12em;
   font-size: clamp(1.8rem, 3vw, 2.5rem);
-  background: linear-gradient(90deg, var(--accent-a), var(--accent-b));
+  color: rgb(153, 37, 38);
+  /* background: linear-gradient(90deg, var(--accent-a), var(--accent-b));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 2px 0 rgba(17, 32, 58, 0.08);
+  text-shadow: 0 2px 0 rgba(17, 32, 58, 0.08); */
 }
 
 .logo-with-mark {
@@ -3198,4 +3199,5 @@ th {
     scroll-behavior: auto !important;
   }
 }
+
 
